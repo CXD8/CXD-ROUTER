@@ -1,6 +1,5 @@
 # CXD-ROUTER
-
-![Poster](Images/CXD-ROUTER-POSTER_PUBLISH.pdf)
+![Poster](https://github.com/CXD8/CXD-ROUTER/blob/9fe24be62be92b1704edf9575a56a2c06ff5d271/Images/CXD-ROUTER-POSTER_PUBLISH.pdf) \
 
 CXD-ROUTER is a high-speed, modular router built on a Rockchip RK3588 SoC, powered by USB-C PD.
 
