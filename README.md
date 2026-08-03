@@ -24,13 +24,13 @@ Most consumer routers are locked down and un-upgrade. I built this to have a hig
 3. Plug in your network cable and Mini HDMI.
 4. Connect a 12v USB-C PD compatible power source to the board.
 
-\## Images
-* **PCB:**
+## Images
+ **PCB:**
 ![PCB](Images/PCB-VIEW-BOTTOM.PNG)
 ![PCB](Images/PCB-VIEW-TOP.PNG)
 ![PCB](Images/PCB-VIEW-PMIC.PNG)
 
-* **Housing:**
+ **Housing:**
 ![Housing](Images/Housing.PNG)
 
 ## Bill of Materials
