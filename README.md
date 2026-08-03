@@ -25,9 +25,14 @@ Most consumer routers are locked down and un-upgrade. I built this to have a hig
 4. Connect a 12v USB-C PD compatible power source to the board.
 
 \## Images
+* **PCB:**
 
-* **PMIC:**
+* ![PCB](Images/PCB-VIEW-BOTTOM.PNG)
+* ![PCB](Images/PCB-VIEW-PMIC.PNG)
+* ![PCB](Images/PCB-VIEW-TOP.PNG)
+
 * **Housing:**
+* ![Housing](Images/Housing.PNG)
 
 ## Bill of Materials
 |CXD-ROUTER-V1.0.0.csv|                      |                           |                               | |   |                    |     |          |        |                               | | | |                                                                                                         |                                            |
