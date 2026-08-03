@@ -1,5 +1,7 @@
 # CXD-ROUTER
 
+![Poster](Images/CXD-ROUTER-POSTER_PUBLISH.pdf)
+
 CXD-ROUTER is a high-speed, modular router built on a Rockchip RK3588 SoC, powered by USB-C PD.
 
 Most consumer routers are locked down and un-upgrade. I built this to have a high-performance router where networking hardware (e.g., Wi-Fi modules) can be easily upgraded using M.2 slots without replacing the entire device.
