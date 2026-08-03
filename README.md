@@ -26,13 +26,12 @@ Most consumer routers are locked down and un-upgrade. I built this to have a hig
 
 \## Images
 * **PCB:**
-
-* ![PCB](Images/PCB-VIEW-BOTTOM.PNG)
-* ![PCB](Images/PCB-VIEW-PMIC.PNG)
-* ![PCB](Images/PCB-VIEW-TOP.PNG)
+![PCB](Images/PCB-VIEW-BOTTOM.PNG)
+![PCB](Images/PCB-VIEW-TOP.PNG)
+![PCB](Images/PCB-VIEW-PMIC.PNG)
 
 * **Housing:**
-* ![Housing](Images/Housing.PNG)
+![Housing](Images/Housing.PNG)
 
 ## Bill of Materials
 |CXD-ROUTER-V1.0.0.csv|                      |                           |                               | |   |                    |     |          |        |                               | | | |                                                                                                         |                                            |
