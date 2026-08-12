@@ -1,0 +1,2571 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e7fe8c29-fef7-4667-97a7-0b55e1cb13de")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:CC0402KRX5R9BB104"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CC0402KRX5R9BB104"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:RC0402JR-070RL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407081117_YAGEO-CC0402KRX5R9BB104_C105882.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100nF 50V X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C105882"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "CC0402KRX5R9BB104"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C0402 C105882 CC0402KRX5R9BB104 YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CC0402KRX5R9BB104_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:CL10B105KA8NNNC"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL10B105KA8NNNC"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:CL10B105KA8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B105KA8NNNC_C29936.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1uF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C29936"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "CL10B105KA8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C0603 C29936 CL10B105KA8NNNC Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CL10B105KA8NNNC_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:RC0402FR-0710KL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC0402FR-0710KL"
+				(at 0 -3.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:RC0402FR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C60490"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "RC0402FR-0710KL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C60490 R0402 RC0402FR-0710KL YAGEO"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC0402FR-0710KL_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:W25Q256JWPIQ"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U58"
+				(at 0.254 11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "W25Q256JWPIQ"
+				(at 0.254 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "JLCImport:W25Q256JWPIQ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010930_Winbond-Elec-W25Q256JWPIQ_C5362614.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-40℃~+85℃ 1.7V~1.95V 100,000 cycles 133MHz 1uA 20 Years 200ms@(64KB) 256Mbit 800us SPI WSON-8(5x6) NOR FLASH ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C5362614"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Winbond Elec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "W25Q256JWPIQ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C5362614 W25Q256JWPIQ WSON-8_L6.0-W5.0-P1.27-TL-EP Winbond Elec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "W25Q256JWPIQ_0_1"
+				(circle
+					(center -22.86 5.08)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 23.622 -6.35) (xy 23.7212 -6.3403) (xy 23.8165 -6.3113) (xy 23.9043 -6.2644) (xy 23.9813 -6.2012)
+						(xy 24.0444 -6.1242) (xy 24.0914 -6.0364) (xy 24.1203 -5.9411) (xy 24.13 -5.842) (xy 24.1203 5.9411)
+						(xy 24.0914 6.0364) (xy 24.0444 6.1242) (xy 23.9813 6.2012) (xy 23.9043 6.2644) (xy 23.8165 6.3113)
+						(xy 23.7212 6.3403) (xy 23.622 6.35) (xy -23.7212 6.3403) (xy -23.8165 6.3113) (xy -23.9043 6.2644)
+						(xy -23.9813 6.2012) (xy -24.0444 6.1242) (xy -24.0914 6.0364) (xy -24.1203 5.9411) (xy -24.13 5.842)
+						(xy -24.1203 -5.9411) (xy -24.0914 -6.0364) (xy -24.0444 -6.1242) (xy -23.9813 -6.2012) (xy -23.9043 -6.2644)
+						(xy -23.8165 -6.3113) (xy -23.7212 -6.3403) (xy -23.622 -6.35) (xy 23.622 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 3.81 0)
+					(length 2.54)
+					(name "CS#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 1.27 0)
+					(length 2.54)
+					(name "DO(IO1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 -1.27 0)
+					(length 2.54)
+					(name "WP#(IO2)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -26.67 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 -3.81 180)
+					(length 2.54)
+					(name "DI(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 -1.27 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 1.27 180)
+					(length 2.54)
+					(name "HOLD#orRESET#(IO3)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 26.67 3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 210.82 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ceed9b8-32d0-4ad0-a360-6fb607321f6d")
+	)
+	(junction
+		(at 194.31 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8028ee61-28a1-4f39-9ab6-5afc84497bfb")
+	)
+	(junction
+		(at 72.39 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e14d0fcc-d265-4a84-861d-1d222880d503")
+	)
+	(wire
+		(pts
+			(xy 194.31 97.79) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ea5d3d-b5c9-46fc-8aa4-3e80a4128cdf")
+	)
+	(wire
+		(pts
+			(xy 121.92 85.09) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c994073-105c-49c9-8155-8c267e678efa")
+	)
+	(wire
+		(pts
+			(xy 72.39 97.79) (xy 72.39 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47dcd8f4-4714-4c28-abf4-78c23c645a2a")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83ca000-eb4d-4acf-a2f4-75927338ddfc")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 72.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7952a8-5dbc-42ee-8d79-78c7153aefe7")
+	)
+	(wire
+		(pts
+			(xy 212.09 97.79) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ce373d-8d5d-4332-8600-b5bfff87471b")
+	)
+	(wire
+		(pts
+			(xy 176.53 97.79) (xy 194.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b2ea3b-60e9-4102-b98e-f12a4807050e")
+	)
+	(wire
+		(pts
+			(xy 82.55 105.41) (xy 90.17 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ba8140-019f-46b9-8830-4a98da8bf5c2")
+	)
+	(image
+		(at 196.85 175.26)
+		(scale 0.113573)
+		(uuid "252f421d-2e55-4a98-9d07-a5adc85f687d")
+		(data "iVBORw0KGgoAAAANSUhEUgAABgAAAAQACAMAAAAQr2JwAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAL"
+			"EwAACxMBAJqcGAAAALdQTFRFAAAAIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZV"
+			"IDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZV"
+			"IDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDdUIDZVIDZVIDZVIDZVIDdUIDdUIDZVIDZVIDZVIDZV"
+			"IDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVIDZVNVdkzgAAAD10Uk5TAJX/AgEm/f4TkAMxgdBx"
+			"ZgTDhvBWwO9h4HawRmJRQc9yUjNCyMGdoJ2AIza/j2F/QBHhr5+PcGBQMG8gEvSqP/QAACFiSURB"
+			"VHic7d3pkx3VYcbhO8yMBVGwjcBGsstkK9mhbFflS/7/L/meSlLYJouzVGEwBmNDCJuQohHCaO5s"
+			"95w+p093v89TlUViNPfOTPX7m77r0Q6ASEejrwAAYwgAQCgBAAglAAChBAAglAAAhBIAgFACABBK"
+			"AABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQ"
+			"SgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIA"
+			"EEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFAC"
+			"ABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQ"
+			"AgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCA"
+			"UAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIA"
+			"gFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQS"
+			"AIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACE"
+			"EgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAA"
+			"hBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQA"
+			"AIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCU"
+			"AACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAg"
+			"lAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQA"
+			"IJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEE"
+			"ACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAACh"
+			"BAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAA"
+			"oQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUA"
+			"AKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAgl"
+			"AAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAI"
+			"JQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEA"
+			"CCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgB"
+			"AAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAo"
+			"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"
+			"ACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAACh"
+			"BAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAA"
+			"oQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUA"
+			"AKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAgl"
+			"AAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAI"
+			"JQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEA"
+			"CCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgB"
+			"AAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAo"
+			"AQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBA"
+			"KAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkA"
+			"QCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJ"
+			"AEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABC"
+			"CQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAA"
+			"QgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoA"
+			"AEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBK"
+			"AABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQ"
+			"SgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIA"
+			"EEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFAC"
+			"ABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCAUAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQ"
+			"AgAQSgAAQgkAQCgBAAglAAChBAAglAAAhBIAgFACABBKAABCCQBAKAEACCUAAKEEACCUAACEEgCA"
+			"UAIAEEoAAEIJAEAoAQAIJQAAoQQAIJQAAIQSAIBQAgAQSgAAQgkAQCgBAAglAACh/h9tAH15Yx4k"
+			"NwAAAABJRU5ErkJggg=="
+		)
+	)
+	(label "FSPI_D2"
+		(at 82.55 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ee96d89-11cf-460d-b456-5050d7c0941e")
+	)
+	(label "FSPI_D3"
+		(at 82.55 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0f341b3-2410-4547-880e-b0573eb83112")
+	)
+	(global_label "VCC_1V8_S3"
+		(shape input)
+		(at 212.09 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0501608f-90b3-47f2-bd92-7a248e7b4c27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.5656 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FSPI_D0"
+		(shape input)
+		(at 176.53 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "051f106c-2dc3-48a7-b9cd-9174c04965da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.1352 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FSPI_CS0"
+		(shape input)
+		(at 123.19 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23322013-896a-4f98-a934-4730f94913e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.3753 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FSPI_D2"
+		(shape input)
+		(at 123.19 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59a8cc06-11cd-4fed-ae18-135c8d9537b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.5848 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FSPI_D3"
+		(shape input)
+		(at 176.53 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b7ef582-f5c6-41c7-99c5-6f99596be7c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.1352 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FSPI_D1"
+		(shape input)
+		(at 123.19 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9b8b95f-dcd5-4b8e-9a3f-81ce68d2d9ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.5848 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "FSPI_CS0"
+		(shape input)
+		(at 121.92 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca7429c8-b41c-47bf-a98c-6d871bdfdc89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.1053 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VCC_1V8_S3"
+		(shape input)
+		(at 72.39 96.52 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e05d0ec7-5d33-4c59-9093-e000a6e2229d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 82.0444 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "FSPI_CLK"
+		(shape input)
+		(at 176.53 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb0689cb-80fd-4de5-aa52-cc79c6895681")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.2238 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:RC0402FR-0710KL")
+		(at 77.47 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fe2253f-4543-499c-87ee-cf59f32656c3")
+		(property "Reference" "R217"
+			(at 77.47 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K 0402 DNP"
+			(at 77.47 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:RC0402FR-0710KL"
+			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RC0402FR-0710KL"
+			(at 77.47 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e58f4e5f-e1ae-4189-b1ef-bd5734291370")
+		)
+		(pin "2"
+			(uuid "4df173dd-227c-4c32-8e82-b91664eaa04b")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "R217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:W25Q256JWPIQ")
+		(at 149.86 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f9a9c6-a437-4b99-b3ad-f407758447c6")
+		(property "Reference" "U58"
+			(at 150.114 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "W25Q256JWPIQ"
+			(at 150.114 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:W25Q256JWPIQ"
+			(at 149.86 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2303010930_Winbond-Elec-W25Q256JWPIQ_C5362614.pdf"
+			(at 149.86 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1.7V~1.95V 100,000 cycles 133MHz 1uA 20 Years 200ms@(64KB) 256Mbit 800us SPI WSON-8(5x6) NOR FLASH ROHS"
+			(at 149.86 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5362614"
+			(at 149.86 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Winbond Elec"
+			(at 149.86 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "W25Q256JWPIQ"
+			(at 149.86 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "ec0a70f2-cec5-48fb-b0f6-caed008a0e6b")
+		)
+		(pin "7"
+			(uuid "9ee61555-f297-48ce-b8c7-b0e4f93726a0")
+		)
+		(pin "4"
+			(uuid "2f5ec184-48ab-400f-9f72-b9a588de9e9e")
+		)
+		(pin "1"
+			(uuid "7a1971d6-40ab-439b-87ea-fd62d1599e00")
+		)
+		(pin "2"
+			(uuid "d589167c-fa87-48c4-a5db-01254bb81bec")
+		)
+		(pin "3"
+			(uuid "97c5d48e-3e0b-470e-915c-38e8b2f7cc82")
+		)
+		(pin "6"
+			(uuid "7f4dee0a-d95d-428f-b31b-57c9191e21fc")
+		)
+		(pin "8"
+			(uuid "be4101e9-ec57-4121-aaf7-ca9a538c1131")
+		)
+		(pin "9"
+			(uuid "4eb1ae09-a0a8-43c8-88c6-7f35b7b5db23")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "U58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CL10B105KA8NNNC")
+		(at 210.82 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38132b1e-4cc7-45a7-8b1e-a013d4619191")
+		(property "Reference" "C5"
+			(at 214.63 100.9649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF 25V 6030"
+			(at 214.63 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:CL10B105KA8NNNC"
+			(at 210.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL10B105KA8NNNC_C29936.pdf"
+			(at 210.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1uF 25V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 210.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C29936"
+			(at 210.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 210.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10B105KA8NNNC"
+			(at 210.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2304c38a-fdff-4942-a3f3-9d3d4adffabc")
+		)
+		(pin "1"
+			(uuid "caea6997-e48c-4640-873d-3f6b53555f2a")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6530f51a-1a7e-4ccc-9bea-59dc6db7a540")
+		(property "Reference" "#PWR0659"
+			(at 210.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35aea7cb-487c-458a-b0a8-16fd13803017")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "#PWR0659")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76a02aaa-f076-4a87-a16c-708ce5a78c6e")
+		(property "Reference" "#PWR0657"
+			(at 149.86 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc8f168f-226f-4c74-ad9b-ed9d94083800")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "#PWR0657")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 123.19 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ae28f56-4359-4bdf-8c03-e8d6215a3aba")
+		(property "Reference" "TP11"
+			(at 124.46 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FSPI_CS0"
+			(at 124.46 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 128.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0566b0ed-6f28-41ff-8c21-6fa6a7b0daab")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a472719e-89c3-4392-9a60-62ed3fe59455")
+		(property "Reference" "#PWR016"
+			(at 123.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3a38755-a5b2-478f-aa71-6cb2b79b406f")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:RC0402FR-0710KL")
+		(at 77.47 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b445add1-797e-4cd6-b0c6-230877275749")
+		(property "Reference" "R216"
+			(at 77.47 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K 0402 DNP"
+			(at 77.47 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:RC0402FR-0710KL"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "RC0402FR-0710KL"
+			(at 77.47 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04ef6fcc-c07f-4bc2-92a5-49e621b38b83")
+		)
+		(pin "2"
+			(uuid "307a4727-6cfe-4a7b-8298-f73f92247605")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "R216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:CC0402KRX5R9BB104")
+		(at 194.31 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1286278-f0ca-4e35-bd98-758f96e0ec25")
+		(property "Reference" "C4"
+			(at 198.12 100.9649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF 50V  0402"
+			(at 198.12 102.87 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "JLCImport:RC0402JR-070RL"
+			(at 194.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407081117_YAGEO-CC0402KRX5R9BB104_C105882.pdf"
+			(at 194.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 50V X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 194.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C105882"
+			(at 194.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 194.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CC0402KRX5R9BB104"
+			(at 194.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6310e97b-5362-4ea3-8a9d-3747da2e08e4")
+		)
+		(pin "1"
+			(uuid "14664e07-6676-4d14-b6e7-15f838840e29")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d59e285b-4355-471d-8243-3bbca8395b23")
+		(property "Reference" "#PWR0658"
+			(at 194.31 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ae78767-64e3-49f7-af08-f630b5c736de")
+		)
+		(instances
+			(project "CXD-ROUTER"
+				(path "/0b1c559c-f7dd-471c-b412-badbf465e7ad/20d25bf7-4f58-4031-a002-61ff14a49325"
+					(reference "#PWR0658")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
