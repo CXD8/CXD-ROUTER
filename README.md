@@ -225,8 +225,12 @@ Most consumer routers are locked down and un-upgrade. I built this to have a hig
 |C129018              |TYPE-C-31-M-04             |TYPE-C-31-M-04                  |TYPE-C-31-M-04                      |      |1       |Korean Hroparts Elec     |1         |0.6420         |0.64          |SMD                                  |1      |1      |1000   |USB-C (USB TYPE-C) Receptacle Connector 24 Position Through Hole                                               |https://www.lcsc.com/product-detail/C129018.html  |
 |-                    |                           |JT4-1108HL                      |PULSE_JT4-1108HL                    |      |1       |PULSE                    |1         |4.4352         |4.44          |Through Hole,Right Angle             |1      |1      |50     |Jack Modular Connector RJ45 Through Hole, Right Angle Shielded                                                 |https://www.lcsc.com/product-detail/C455440.html  |
 
+>> This project is only made for fun, and probably will not work and has not be tested due to high production costs.
 >> Various features including M.2 have not been implemented due to time constraints remains functional without M.2 slot.
 >> Many M.2 wifi cards are avaliable, ensure that they are M.2 and keyed corrected. High performance options include ones such as https://asiarf.com/product/wi-fi-7-be3600-m-2-ap-module-aw7990-aed
 ---
 
 *Initially inspired by Tomaž Zaman's 10G router.*
+
+- BUILT SOLO BY CXD 2026 (03/04/2026 - 03/08/2026)
+- MADE FOR HC FALLOUT
