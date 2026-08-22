@@ -3,6 +3,7 @@
 
 CXD-ROUTER is a high-speed, modular router built on a Rockchip RK3588 SoC, powered by USB-C PD.
 
+Goal of Project:
 Most consumer routers are locked down and un-upgrade. I built this to have a high-performance router where networking hardware (e.g., Wi-Fi modules) can be easily upgraded using M.2 slots without replacing the entire device.
 
 ## Specifications and Features
@@ -230,7 +231,7 @@ Most consumer routers are locked down and un-upgrade. I built this to have a hig
 |-                    |                           |JT4-1108HL                      |PULSE_JT4-1108HL                    |      |1       |PULSE                    |1         |4.4352         |4.44          |Through Hole,Right Angle             |1      |1      |50     |Jack Modular Connector RJ45 Through Hole, Right Angle Shielded                                                 |https://www.lcsc.com/product-detail/C455440.html  |
 
 >> This project is only made for fun, and probably will not work and has not be tested due to high production costs.
->> Various features including M.2 have not been implemented due to time constraints remains functional without M.2 slot.
+>> Non-critical features including a second ethernet port has not been added, M.2 have not been implemented due to time constraints remains functional without.
 >> Many M.2 wifi cards are avaliable, ensure that they are M.2 and keyed corrected. High performance options include ones such as https://asiarf.com/product/wi-fi-7-be3600-m-2-ap-module-aw7990-aed
 ---
 
