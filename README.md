@@ -19,9 +19,9 @@ Most consumer routers are locked down and unupgrade. I built this as a high-perf
 
 ## Firmware, flashing and setup
 
-1. Follow Firefly's or Fygo's existing documentation to flash the RK3588 board (image itself cant be uploaded here due to size:
-   [Fygo ROC-RK3588-PC Upgrade Firmware Guide](https://help.fygonas.com/articles/v1/contact/arm-rk-usb)
-   [Firefly ROC-RK3588-PC Upgrade Firmware Guide](https://wiki.t-firefly.com/en/ROC-RK3588-PC/upgrade_firmware.html)
+1. Follow Firefly's or Fygo's existing documentation to flash the RK3588 board (image itself cant be uploaded here due to size:  
+   [Fygo ROC-RK3588-PC Upgrade Firmware Guide](https://help.fygonas.com/articles/v1/contact/arm-rk-usb)  
+   [Firefly ROC-RK3588-PC Upgrade Firmware Guide](https://wiki.t-firefly.com/en/ROC-RK3588-PC/upgrade_firmware.html)  
 3. Connect peripherals (OPT: M.2 WiFi Card)
 4. Plug in your network cable and Mini HDMI to a monitor.
 5. Connect a 12v USB-C PD compatible power source to the board.
