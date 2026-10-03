@@ -17,13 +17,14 @@ Most consumer routers are locked down and unupgrade. I built this as a high-perf
 | **Power** | USB-C Power Delivery (PD) 12V |
 | **I/O** | Mini HDMI, USB-C, 2.5G RJ45 |
 
-## Firmware & Flashing
+## Firmware, flashing and setup
 
-1. Follow Firefly's existing documentation to flash the RK3588 board:
+1. Follow Firefly's or Fygo's existing documentation to flash the RK3588 board:
+   [Fygo ROC-RK3588-PC Upgrade Firmware Guide](https://help.fygonas.com/articles/v1/contact/arm-rk-usb)
    [Firefly ROC-RK3588-PC Upgrade Firmware Guide](https://wiki.t-firefly.com/en/ROC-RK3588-PC/upgrade_firmware.html)
-2. Connect peripherals (OPT: M.2 WiFi Card)
-3. Plug in your network cable and Mini HDMI to a monitor.
-4. Connect a 12v USB-C PD compatible power source to the board.
+3. Connect peripherals (OPT: M.2 WiFi Card)
+4. Plug in your network cable and Mini HDMI to a monitor.
+5. Connect a 12v USB-C PD compatible power source to the board.
 
 ## Images
  **PCB:**
