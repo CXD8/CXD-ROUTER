@@ -237,3 +237,8 @@ Most consumer routers are locked down and unupgrade. I built this as a high-perf
 
 - BUILT SOLO BY CXD (03/04/2026 - 03/08/2026)
 - MADE FOR HC FALLOUT 2026
+
+Changelog MMDDYYYY:
+09-09-2026: v1.3 PCB Fixes.  
+09-10-2026: v2.0.0 housing fixes, add sliding lid for the housing and fix mounting holes.  
+
