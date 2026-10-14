@@ -33,7 +33,7 @@ Most consumer routers are locked down and unupgrade. I built this as a high-perf
 ![PCB](Images/PCB-VIEW-PMIC.PNG)
 
  **Housing:**
-![Housing](Images/Housing.PNG)
+![Housing](Images/Housing_v2.PNG)
 
 ## Bill of Materials
 |CXD-ROUTER-V1.0.0.csv|                      |                           |                               | |   |                    |     |          |        |                               | | | |                                                                                                         |                                            |
